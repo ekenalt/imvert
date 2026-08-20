@@ -1,0 +1,22 @@
+{
+	"name": "Imvert",
+	"start_url": "./",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "/icons/icon.svg",
+			"type": "image/svg+xml",
+			"sizes": "any"
+		},
+		{
+			"src": "/icons/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/icons/icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	]
+}

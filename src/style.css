@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	min-height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	font-family: system-ui, sans-serif;
+	background: #1e1e1e;
+	color: white;
+}
+
+.app {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0 0 20px;
+	font-size: 1.75rem;
+}
+
+button,
+.button {
+	align-items: center;
+	justify-content: center;
+
+	min-height: 44px;
+	padding: 10px 18px;
+
+	border: 0;
+	border-radius: 8px;
+
+	background: #444;
+	color: white;
+
+	font: inherit;
+	font-size: 1rem;
+
+	cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+	background: #555;
+}
+
+button:active,
+.button:active {
+	background: #333;
+}
+
+button:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.controls {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+#grayCutoffSlider {
+	flex: 1;
+}
+
+#canvasContainer {
+	position: relative;
+
+	width: 100%;
+	min-height: 300px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(45deg, #292929 25%, transparent 25%),
+	linear-gradient(-45deg, #292929 25%, transparent 25%),
+	linear-gradient(45deg, transparent 75%, #292929 75%),
+	linear-gradient(-45deg, transparent 75%, #292929 75%);
+
+	background-size: 40px 40px;
+	background-position:
+		0 0,
+		0 20px,
+		20px -20px,
+		-20px 0;
+
+	overflow: auto;
+	border-radius: 8px;
+}
+
+#canvas {
+	display: none;
+
+	/* Scale the displayed canvas down to fit the available width */
+	/* Preserve its actual resolution for saving */
+	max-width: 100%;
+	height: auto;
+}
+
+#placeholder {
+	padding: 80px 20px;
+	color: #999;
+	text-align: center;
+}

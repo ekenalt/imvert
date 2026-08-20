@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="511.99997"
+   height="511.99997"
+   viewBox="0 0 135.46666 135.46666"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter2"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix2"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3" />
+      <feColorMatrix
+         id="feColorMatrix4"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.21 -0.72 -0.07 2 0 "
+         result="fbSourceGraphic"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5" />
+      <feColorMatrix
+         id="feColorMatrix6"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0.21 0.72 0.07 1 0 "
+         result="color2"
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g2">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.512601;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2"
+         width="67.73333"
+         height="135.46666"
+         x="1.7309321e-09"
+         y="0" />
+      <path
+         id="path1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.530468;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 67.73333,48.765426 c -18.593575,0 -34.174712,7.081009 -48.696781,18.965948 14.522069,11.884942 30.103206,18.969859 48.696781,18.969859 V 67.731374 Z" />
+      <path
+         style="fill:#86a1ff;fill-opacity:1;stroke:#86a1ff;stroke-width:0.317335;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path2"
+         d="m 67.574661,82.276884 a 14.543554,14.543554 0 0 1 -12.595087,-7.271777 14.543554,14.543554 0 0 1 0,-14.543554 14.543554,14.543554 0 0 1 12.595087,-7.271778 V 67.73333 Z" />
+    </g>
+    <g
+       id="g2-2"
+       transform="matrix(-1,0,0,1,135.46666,0)"
+       style="filter:url(#filter2)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.512601;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2-7"
+         width="67.73333"
+         height="135.46666"
+         x="1.7309321e-09"
+         y="0" />
+      <path
+         id="path1-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.530468;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 67.73333,48.765426 c -18.593575,0 -34.174712,7.081009 -48.696781,18.965948 14.522069,11.884942 30.103206,18.969859 48.696781,18.969859 V 67.731374 Z" />
+      <path
+         style="fill:#86a1ff;fill-opacity:1;stroke:#86a1ff;stroke-width:0.317335;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path2-1"
+         d="m 67.574661,82.276884 a 14.543554,14.543554 0 0 1 -12.595087,-7.271777 14.543554,14.543554 0 0 1 0,-14.543554 14.543554,14.543554 0 0 1 12.595087,-7.271778 V 67.73333 Z" />
+    </g>
+  </g>
+</svg>

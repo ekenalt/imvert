@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Imvert</title>
+	<link rel="manifest" href="/manifest.json"/>
+	<link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+<main class="app">
+	<h1>Imvert</h1>
+
+	<div class="controls">
+		<label class="button control">
+			Upload Image
+			<input id="imageInput" type="file" accept="image/*" hidden>
+		</label>
+
+		<button id="saveButton" class="control" disabled>
+			Save Image
+		</button>
+	</div>
+
+	<div class="controls">
+		<label for="grayCutoffSlider" class="control">Gray Cutoff</label>
+		<input
+			id="grayCutoffSlider"
+			type="range"
+			min="0"
+			max="255"
+			value="255"
+			class="control"
+		>
+		<span id="grayCutoffValue" class="control">255</span>
+	</div>
+
+	<div id="canvasContainer">
+		<canvas id="canvas"></canvas>
+		<div id="placeholder">
+			Upload an image to get started
+		</div>
+	</div>
+
+</main>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
