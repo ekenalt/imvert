@@ -67,6 +67,11 @@ button:disabled {
 	flex-direction: row;
 	gap: 10px;
 	margin-bottom: 20px;
+	align-items: center;
+}
+
+#invertCheckbox {
+	margin-left: auto;
 }
 
 #grayCutoffSlider {
